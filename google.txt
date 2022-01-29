@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Teamwork Loading Page</title>
+  </head>
+  <body>
+    <header>
+      <nav class="header-left">
+        <a href="" class="header-links">About</a>
+        <a href="" class="header-links">Store</a>
+      </nav>
+      <nav class="header-right">
+        <a href="" class="header-links">Gmail</a>
+        <a href="" class="header-links">Images</a>
+        <a href="" class="header-links" id="appicon"
+          ><img src="./images/appicon.png" alt="appicon"
+        /></a>
+        <button class="header-links" id="sign-in">Sign In</button>
+      </nav>
+    </header>
+    <img src="./images/googlelogo.png" alt="google logo" id="google">
+    <div class="search-bar">
+        <input type="text" id="search"><img src="./images/magnifying_glass.jpg" alt="magnifiying_glass" id ="mag">
+        <a href=""><img src="./images/google_microphone.png" alt="microphone" id="microphone"></a>
+    </div>
+    <div class="button-part">
+        <button id="button-1" type="button" name="button">Google Search</button>
+        <button id="button-2" type="button" name="button">I'm Feeling Lucky</button>  
+    </div>
+    <div class="lang">
+        <p id="language">Other Languages you can use Google: <a href="#">English</a> </p>
+    <footer>
+        <div class="country">Turkey</div>
+        <nav class="nav-left">
+            <a href="" class="footer-links">Advertising</a>
+            <a href="" class="footer-links">Business</a>
+            <a href="" class="footer-links">How Search Works</a>
+        </nav>
+        <nav class="nav-right">
+            <a href="" class="footer-links">Privacy</a>
+            <a href="" class="footer-links">Terms</a>
+            <a href="" class="footer-links">Settings</a>
+        </nav>
+    </footer>
+  </body>
+</html>
+10:20
+css kodları
+10:20
+body{
+  font-family: Arial, sans-serif;  
+  margin: 0px;
+  /* width: 100%; */
+  /* white-space: nowrap; */
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    font-size: 13px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.header-links{
+    color: black;
+}
+.header-left{
+    /* opacity: 0.8; */
+    color: grey;
+    float:left;
+}
+.header-right{
+    opacity:1 ;
+    float:right;
+}
+header{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+#appicon{
+    vertical-align: middle;
+    opacity: 0.5;
+}
+#appicon:hover{
+    opacity: 1;
+}
+#sign
